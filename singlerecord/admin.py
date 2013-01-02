@@ -6,7 +6,7 @@ class SingleRecordModelAdmin(admin.ModelAdmin):
         """ Prevent addition of new objects """
         return False
 
-   def changelist_view(self, request, extra_context=None):
+    def changelist_view(self, request, extra_context=None):
         """ 
         Prevent object list, go to edition of the 
          single record in database
