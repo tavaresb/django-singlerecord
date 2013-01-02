@@ -11,7 +11,7 @@ class SingleRecordModel(models.Model):
             
     def save(self, *args, **kwargs):
         self.id=1
-        super(SingleRecord, self).save(*args, **kwargs)
+        super(SingleRecordModel, self).save(*args, **kwargs)
 
     def delete(self, *args, **kwargs):
         pass
