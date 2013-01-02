@@ -1,0 +1,4 @@
+django-singlerecord
+===================
+
+django-singlerecord
