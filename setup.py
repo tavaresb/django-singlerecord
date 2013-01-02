@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(name='django-singlerecord',
-    version='0.1.0',
+    version='0.1.1',
     description='Abstraction for models with only one record for Django',
     author='Bruno Tavares',
     author_email='eu@brunotavares.net',
