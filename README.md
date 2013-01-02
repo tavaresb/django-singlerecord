@@ -1,7 +1,7 @@
 SingeRecord
 ===========
 
-This modules provide a simple abstraction that allows you to declare a Django model as a single record model (just like a singleton).
+This package provide a simple abstraction that allows you to declare a Django model as a single record model (just like a singleton).
 
 It's not compliant with the active record pattern but i've found myself using this approach over and over again ( for example for a settings model... ) so i've turned it into a package.
 
