@@ -13,7 +13,7 @@ Dependencies
 Installation
 ============
 
-1. ``pip instal``
+1. ``pip instal django-singlerecord``
 2. Add ``'singlerecord'`` o the `INSTALLED_APPS` in your project's ``settings.py`` 
 
 
@@ -33,6 +33,14 @@ in admin.py register your model as a SingleRecordModelAdmin
     from myapp.models import SiteSettings
             
     admin.site.register(SiteSettings, SingleRecordModelAdmin)
+
+Since there is only one record the model class has a method that works as a shortcut to the only model instance
+
+``settings = SiteSettings.get()``
+
+Of course that all the Django ORM machinery still works.
+
+``settings = SiteSettings.objects.get(pk=1)``
 
 Acknowledgments
 ===============
