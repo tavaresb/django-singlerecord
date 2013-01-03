@@ -1,4 +1,4 @@
-SingeRecord
+SingleRecord
 ===========
 
 This package provide a simple abstraction that allows you to declare a Django model as a single record model (just like a singleton).
