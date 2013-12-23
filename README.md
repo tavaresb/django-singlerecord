@@ -14,7 +14,7 @@ Installation
 ============
 
 1. ``pip instal django-singlerecord``
-2. Add ``'singlerecord'`` o the `INSTALLED_APPS` in your project's ``settings.py`` 
+2. Add ``'singlerecord'`` to the `INSTALLED_APPS` in your project's ``settings.py`` 
 
 
 Usage
